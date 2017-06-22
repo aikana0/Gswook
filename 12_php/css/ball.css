@@ -1,0 +1,66 @@
+
+body{
+  background-color: #F7D358;
+  width: 800px;
+  height: 800px;
+
+}
+
+
+.niwatori {
+  width: 400px;
+  height: 400px;
+  /*transition: all 2s ease-in-out;*/
+}
+
+#transformBox {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-bottom: 400px;
+  width: 100px;
+  height: 100px;
+  transition: all 2s ease-in-out;
+}
+
+#fild{
+  width: 450px;
+  height: 230px;
+  /*margin-top: 20px;*/
+  text-align: center;
+  padding-top: 20px
+
+
+}
+
+.jumbotron{
+  width: 100px;
+  height: 100px;
+}
+
+
+.title{
+  font-size: 20px;
+  font-weight: 1000;
+  background: #b0dcfa; /*背景色*/
+  padding: 0.5em;/*文字周りの余白*/
+  color: white;/*文字を白に*/
+  border-radius: 0.5em;/*角の丸み*/
+
+
+}
+
+.area{
+  width: 100px;
+	height: 100px;
+	/*background: #888;*/
+	margin: 0 auto;
+
+}
+
+.setumei{
+  font-size: 15px;
+}
+.setumei2{
+    font-size: 10px;
+}
