@@ -1,0 +1,104 @@
+* {
+  /*border: solid 1px;*/
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #F7D358;
+}
+
+
+/*　全体　*/
+/****************************************************************/
+
+.wrapar{
+  max-width: 1000px;
+  min-height: 800px;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/*　左　テキスト側　*/
+/****************************************************************/
+.textfrom{
+  width: 35%;
+  height: 50%;
+}
+
+/*　英単語　PHP連携部分のデザイン　*/
+/************************************/
+
+.link_button_oya{
+  display: flex;
+  justify-content: center;
+}
+
+.link_button {
+  width: 80%;
+  height:100px;
+  font-size: 70px;
+  font-weight: bold;/*太字に*/
+  text-decoration: none;/*下線消す*/
+  background: skyblue;/*背景を水色に*/
+  color:white;/*文字を白に*/
+  padding:5px 10px;/*内側の余白*/
+  border-radius: 20px;/*角を丸くする*/
+  font-family: 'Avenir','Arial';/*フォントをいい感じに*/
+  text-align: center;
+  }
+
+  /*以下カーソルを当てたとき*/
+.link_button:hover {
+  background: silver;/*背景色をシルバーに*/
+  text-decoration: none;/*下線を消す*/
+  }
+
+.memoarea{
+  width: 35%;
+  height: auto;
+}
+
+
+
+  /*　英単語　説明文　*/
+  /************************************/
+  .setumei{
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: "Sawarabi Gothic";
+    font-size: 40px;
+  }
+
+
+
+/*　右　画像側　*/
+/****************************************************************/
+.displayzone{
+  width: 65%;
+  height: auto;
+}
+
+/*　画像部分　*/
+/************************************/
+.display{
+  width: auto;
+  height:70%;
+  background-color: #FFFFFF;
+  background-image: url(../img/kusamura.png);
+  border-radius: 50%;
+  position: relative;
+}
+
+img{
+  width:50%;
+  height: 50%;
+}
+#transformBox{
+  transition: all 1s ease-out;
+  position: absolute;
+  top:0;
+  left: 0;
+  transform: translate3d(50%,50%,0);
+}

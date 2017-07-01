@@ -1,0 +1,109 @@
+* {
+  border: solid 1px;
+  box-sizing: border-box;
+  background-color: #F7D358;
+}
+
+body{
+  background-color: #F7D358;
+}
+
+/*　全体　*/
+.wrapar{
+  max-width: 1000px;
+  min-height: 800px;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/*　右　*/
+.listright{
+  width: 15%;
+  height: auto;
+}
+/*　左　*/
+.listleft{
+  width: 15%;
+  height: auto;
+}
+
+/*　真ん中　*/
+.displayzone{
+  width: 70%;
+  height: auto;
+}
+
+/*　画像部分　*/
+.display{
+  width: auto;
+  height:70%;
+  background-color: #FFFFFF;
+  background-image: url(../img/kusamura.png);
+  border-radius: 50%;
+  position: relative;
+}
+
+img{
+  width:50%;
+  height: 50%;
+}
+#transformBox{
+  transition: all 1s ease-out;
+  position: absolute;
+  top:0;
+  left: 0;
+  transform: translate3d(50%,50%,0);
+}
+
+
+/*　textareaのcss　*/
+.orderform{
+  width: auto;
+  height:30%;
+  font-size: 60px;
+  appearance : none;
+  -webkit-appearance: none;
+  width: 400px;
+  height: 80px;
+  border-radius: 1.5em;
+  text-align: center;
+}
+
+/*「 Go 」ボタンのcss */
+#orderbtn{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 800;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+#orderbtn:active {/*ボタンを押したとき*/
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+    border-bottom: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end */

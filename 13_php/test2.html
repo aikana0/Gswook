@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/test2.css">
+
+  <title>Document</title>
+</head>
+<body>
+
+
+
+<div class="wrapar">
+
+<!--　右　-->
+    <div class="listright">
+      <div class="container jumbotron"><?=$view?></div>
+    </div>
+
+<!--　真ん中 -->
+    <div class="displayzone">
+          <div class="display">
+              <img src="img/niwatori.png" id="transformBox">
+          </div>
+      <fieldset class="orderform">
+          <label>
+              <textArea name="ordername" rows="1" cols="15" class="orderform">
+              </textArea>
+          </label>
+          <button type="submit" id="orderbtn">Go</button>
+      </fieldset>
+    </div>
+
+
+<!--　左　-->
+    <div class="listleft">
+        <div class="container jumbotron"><?=$view?></div>
+    </div>
+
+</div>
+
+
+
+
+<div class="wrapar">
+
+      <div class="area">
+          <div class="display">
+                <img src="img/niwatori.png" id="transformBox">
+          </div>
+
+          <div class="input">
+            <fieldset class="fild">
+               <!-- <legend class="title">ニワトリを動かすプログラミング</legend> -->
+                <label>
+                  <textArea name="ordername" rows="1" cols="15" class="orderform"></textArea>
+                </label>
+                <button type="submit" id="orderbtn">Go</button>
+                <!-- <button type="submit" id="test">テスト</button> -->
+             </fieldset>
+          </div>
+      </div>
+
+      <div class="list">
+        <div class="container jumbotron"><?=$view?></div>
+      </div>
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
